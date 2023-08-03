@@ -15,9 +15,9 @@ on:
 
 env:
   AWS_REGION: ap-northeast-2
-  S3_BUCKET_NAME: cicd-code-bucket
-  CODE_DEPLOY_APPLICATION_NAME: cicd-test
-  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: cicd-test-group
+  S3_BUCKET_NAME: actions-deploy
+  CODE_DEPLOY_APPLICATION_NAME: actions
+  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: actions-dg
 
 
 jobs:
